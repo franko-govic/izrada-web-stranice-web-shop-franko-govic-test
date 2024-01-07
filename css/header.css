@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 nav{
   background-color: yellowgreen;
 }
@@ -12,47 +17,30 @@ img {
 
 .top {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
-  align-items: center;
-  vertical-align: middle;
   border: 1px solid blue;
 }
 
-.start {
-  display: inline-flex;
-  gap: 0.1rem;
-}
-
-.bottom {
+.start,
+.end {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  vertical-align: middle;
-  align-items: center;
-  border: 1px solid green;
-  
+  gap: 0.4rem;
 }
 
-.bottom-part ul {
-  margin: 0;
+.bottom ul{
   display: flex;
-  flex-direction: row;
-  gap: 0.2rem;
+  justify-content: space-evenly;
+  margin: auto;
   
-}
-.top-part {
-  display: flex;
-  gap: 0.1rem;
+
 }
 
-.bottom-part ul li {
+.bottom ul li{
+  display: inline-block;
   
-  font-size: 0.8rem;
-  list-style: none;
-  
-}
+  }
 
-.bottom-part ul a {
+.bottom li a {
   text-decoration: none;
 }
+

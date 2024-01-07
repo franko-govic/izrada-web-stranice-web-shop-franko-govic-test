@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  color: white;
+  background-color: deeppink;
+  width: 100%;
+    
+}
+
+.wrapper {
+  width: 100%;
+  background-color: aquamarine;
+  display: flex;
+}
+
+img {
+  width: 20%;
+}
+
+.footer-content {
+  width: 80%;
+  background-color: yellow;
+  display: flex;
+}
+
+.column {
+  background-color: red;
+  width: 25%;
+}
+
+iframe {
+  width: 200px;
+  height: 200px;
+}
+
