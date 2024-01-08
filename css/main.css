@@ -1,0 +1,33 @@
+#hero-section {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.banner-pic {
+  width: 100%;
+  filter: brightness(0.4);
+}
+
+.moto {
+  display: block;
+  width: 60%;
+  position: absolute;
+  font-size: 5rem;
+  color: rgba(255, 255, 255, 0.6);
+  top: 5rem;
+  left: 5rem;
+  z-index: 1;
+}
+
+#popular {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  }
+
+#popular iframe {
+  max-width: 220px;
+}
+
