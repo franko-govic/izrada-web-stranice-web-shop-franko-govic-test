@@ -3,16 +3,3 @@ img {
   
 }
 
-.product-card {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
-  color: white;
-  background-color: aqua;
-  gap: 0.3rem;
-  border-radius: 10px;
-  
-}
-

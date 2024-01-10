@@ -15,16 +15,3 @@
   
 }
 
-header {
-  background-color: white;
- 
-}
-
-body {
-  background-color: var(--main-color);
-  margin: 0;
-}
-
-h2 {
-  color: var(--secondary-color);
-}
