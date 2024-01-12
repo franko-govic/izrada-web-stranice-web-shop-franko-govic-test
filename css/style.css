@@ -1,4 +1,6 @@
-@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"); @import url('https://fonts.googleapis.com/css2?family=Fenix&display=swap');
+
+
 
 :root {
   --main-color: rgb(11, 11, 11);
@@ -15,7 +17,7 @@
 
 body {
   background-color: rgb(21, 20, 20);
-  
+  font-family: Fenix;
 }
 
 .auto-height-iframe  {

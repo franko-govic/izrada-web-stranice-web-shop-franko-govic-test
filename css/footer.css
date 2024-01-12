@@ -7,32 +7,55 @@ footer {
   color: white;
   background-color: deeppink;
   width: 100%;
-    
+  display: flex;
+  flex-direction: column;
 }
+
+footer li {
+  list-style-type: none;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+.logo {
+  border: 1px solid var(--secondary-color);
+  color: var(--secondary-color);
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding: 0.4rem;
+  border-radius: 0.1rem;
+}
+
 
 .wrapper {
   width: 100%;
-  background-color: aquamarine;
   display: flex;
+  justify-content: space-around;
 }
 
-img {
-  width: 20%;
-}
 
 .footer-content {
   width: 80%;
-  background-color: yellow;
   display: flex;
 }
 
 .column {
-  background-color: red;
   width: 25%;
 }
 
-iframe {
-  width: 200px;
-  height: 200px;
+.info {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;  
 }
 
+.company,
+.webshop {
+  width: 100%;
+}
+
+.webshop {
+  text-align: right;
+}

@@ -13,21 +13,30 @@ nav {
   width: 100%;
   font-size: 0.8rem;
   color: var(--forth-color);
-}
-
-.top {
-  display: flex;
+   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: var(--forth-color);
+ 
   
 }
+
+.start,
+.end {
+  margin: 0.5em;
+}
+
+.end {
+  background-color: var(--secondary-color);
+  padding: 0.2rem;
+}
+
 
 .bottom {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
+  padding: 1rem;
+
 }
 
 
@@ -49,13 +58,27 @@ nav {
   
 }
 
+.logo {
+  border: 1px solid var(--secondary-color);
+  color: var(--secondary-color);
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding: 0.4rem;
+  border-radius: 0.1rem;
+}
+
+.logo span {
+  color: var(--forth-color);
+}
+
+
 .bottom .right  {
 
   display: flex;
   align-items: center;
   justify-content: space-around;
-  flex: 1;
-  
+  flex: 1; 
+  margin: auto 1rem; 
 }
 
 .bottom a {
@@ -63,13 +86,14 @@ nav {
   
 }
 
-.bottom-left {
+.bottom-left a{
   text-transform: uppercase;
-  font-size: 0.8rem;
+  font-size: 0.95rem;
   color: var(--forth-color);
-
-
+  padding: 0.7rem 0.4rem;
+  border-radius: 0.1rem;
 }
+
 .bottom-middle {
   background-color: var(--forth-color);
   padding: 0.4rem 1rem;
@@ -83,12 +107,28 @@ nav {
 }
 
 .bottom-middle input {
+  width: 92%;
   border: none;
   font-size: 0.6rem;
-  background: none;
-  color: var(--forth-color);
 }
-.bottom-right {
-  display: flex;
-  justify-content: space-evenly;
+
+.bottom-middle i {
+  color: var(--terciary-color);
+}
+
+.bottom-right i{
+  font-size: 1.18rem;
+}
+
+.bottom-right i:hover{
+  color: var(--secondary-color);
+}
+
+.bottom-left a:hover{
+  background-color: var(--secondary-color);
+}
+
+.fa-heart{
+  margin: 0.6rem;
+  
 }
