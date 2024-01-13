@@ -1,3 +1,51 @@
+body {
+  position: relative;
+}
+
+header {
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  opacity: 0.96;
+}
+
+.top {
+  background-color: var(--terciary-color);
+  width: 100%;
+  font-size: 0.8rem;
+  color: var(--forth-color);
+   display: flex;
+  justify-content: space-between;
+  align-items: center; 
+} 
+
+.top li {
+  display: inline-block;
+}
+
+.top i {
+  font-size: 0.8rem;
+  
+}
+
+.start a {
+  text-decoration: none;
+  margin-right: 0.5rem;
+  color: var(--forth-color);
+}
+
+.start,
+.end {
+  margin: 0.5em;
+}
+
+.end {
+  background-color: var(--secondary-color);
+  padding: 0.2rem;
+}
+
+
 #hero-section {
   width: 100%;
   display: flex;
@@ -75,44 +123,31 @@
   background-size: cover;
   z-index: -1;
 }
-#popular {
+
+.discount {
+  background-color: var(--secondary-color);
+  color: var(--forth-color);
+  padding: 2rem;
+  font-size: 2rem;
+  text-align: center;
+  word-spacing: 0.8rem;
+  animation: boja 2s infinite cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+@keyframes boja {
+  from {background-color: var(--terciary-color);}
+  to {background-color: var(--secondary-color);}
+}
+
+
+
+.new-in {
   width: 100%;
-  height: auto;
   display: flex;
-  justify-content: space-between;
-  }
-
-#popular iframe {
-  max-width: 220px;
-  
+  background-color: var(--terciary-color);
 }
 
-header {
-  width: 100%;
-}
 
-.best-sellers {
-  width: 100%;
-  display: flex;
-}
-
-.product {
-  width: 100%;
-}
-
-.product-card {
-  width: calc(100%/3);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
-  color: white;
-  background-color: aqua;
-  gap: 0.3rem;
-  border-radius: 10px;
-  z-index: -1;
-  
-}
 
 
 

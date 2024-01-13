@@ -7,30 +7,6 @@ nav {
   
 }
 
-
-.top {
-  background-color: var(--terciary-color);
-  width: 100%;
-  font-size: 0.8rem;
-  color: var(--forth-color);
-   display: flex;
-  justify-content: space-between;
-  align-items: center;
- 
-  
-}
-
-.start,
-.end {
-  margin: 0.5em;
-}
-
-.end {
-  background-color: var(--secondary-color);
-  padding: 0.2rem;
-}
-
-
 .bottom {
   display: flex;
   justify-content: space-between;
@@ -40,23 +16,11 @@ nav {
 }
 
 
-
-.top li,
 .bottom li {
   display: inline-block;
 }
 
-.start a {
-  text-decoration: none;
-  margin-right: 0.5rem;
-  color: var(--forth-color);
-}
 
-
-.top i {
-  font-size: 0.8rem;
-  
-}
 
 .logo {
   border: 1px solid var(--secondary-color);
