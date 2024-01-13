@@ -3,7 +3,7 @@
   padding: 0;
 }
 
-footer {
+object {
   color: white;
   background-color: var(--terciary-color);
   width: 100%;
@@ -12,11 +12,11 @@ footer {
   
 }
 
-footer li {
+object li {
   list-style-type: none;
 }
 
-footer a {
+object a {
   text-decoration: none;
   color: white;
 }
@@ -82,4 +82,8 @@ footer a {
 
 .webshop {
   text-align: right;
+}
+
+.newsletter {
+  width: 100%;
 }
