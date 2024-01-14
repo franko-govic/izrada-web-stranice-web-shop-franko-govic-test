@@ -1,5 +1,5 @@
 i {
-  color: white;
+  color: var(--forth-color);
 }
 nav {
   width: 100%;
@@ -87,13 +87,34 @@ nav .logo {
 
 .bottom-right i:hover{
   color: var(--secondary-color);
+  scale: 1.5;
 }
 
-.bottom-left a:hover{
+.bottom-left li:hover{
   background-color: var(--secondary-color);
 }
 
 .fa-heart{
-  margin: 0.6rem;
-  
+  margin: 0.6rem; 
+}
+
+.fa-shopping-cart {
+  margin-right: 1rem;
+}
+
+.bottom-right .hamb { 
+  display: none;
+}
+
+@media only screen  and (max-width: 820px) {
+  .bottom-right .hamb {
+    display: inline-block;
+   
+  }
+  .bottom-left .page {
+    display: none;
+  }
+  .bottom-middle input {
+    width: 60%;
+  }
 }

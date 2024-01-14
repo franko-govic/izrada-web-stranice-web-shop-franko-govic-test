@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/shop.css">
   <title>Shop</title>
 </head>
 <body>
@@ -11,15 +12,97 @@
     <iframe src="partials/header.html" frameborder="0" width="100%" class="auto-height-iframe"></iframe>
   </header>
   <main>
+    <section class="filler"></section>
     <section class="sorting">
         <article class="filter">
-
+          <div class="wrapper">
+          <p>All</p>
+          <p>filter by:</p>
+          <form>
+            <fieldset class="colections">
+              <legend>colections</legend>
+              <input type="checkbox" name="colections" id="new">
+              <label for="new">new in</label><br>
+              <input type="checkbox" name="colections" id="limited">
+              <label for="limited">limited</label><br>
+              <input type="checkbox" name="colections" id="best">
+              <label for="best">best sellers</label><br>
+              <input type="checkbox" name="colections" id="industrial">
+              <label for="indutrial">industrial</label><br>
+              <input type="checkbox" name="colections" id="sea">
+              <label for="sea">sea</label><br>
+            </fieldset>
+            <fieldset class="price">
+              <legend>price</legend>
+              <input type="range" min="50" max="1500" value="400" class="slider" id="sliderRange">
+              <p id="demo"></p>
+            </fieldset>
+            <fieldset class="categories">
+              <legend>categories</legend>
+              <input type="checkbox" name="category" id="braclets">
+              <label for="bracelet">bracelets</label><br>
+              <input type="checkbox" name="category" id="necklaces">
+              <label for="necklaces">necklaces</label><br>
+              <input type="checkbox" name="category" id="earings">
+              <label for="earings">earings</label><br>
+              <input type="checkbox" name="category" id="rings">
+              <label for="rings">rings</label><br>
+            </fieldset>
+            <fieldset class="colors">
+              <legend>colors</legend>
+              <input id="red" type="checkbox" name="colors">
+              <input id="black" type="checkbox" name="colors">
+              <input id="blue" type="checkbox" name="colors">
+              <input id="grey" type="checkbox" name="colors">
+              <input id="orange" type="checkbox" name="colors">
+            </fieldset>
+            <fieldset class="categories">
+              <legend>materials</legend>
+              <input type="checkbox" name="material" id="stones">
+              <label for="stones">semi-precious stones
+              </label><br>
+              <input type="checkbox" name="material" id="glass">
+              <label for="glass">glass</label><br>
+              <input type="checkbox" name="material
+              " id="metal">
+              <label for="metal">metal alloy
+              </label><br>
+              <input type="checkbox" name="material" id="corals">
+              <label for="corals">corals</label><br>
+              <input type="checkbox" name="material" id="pearls">
+              <label for="pearls">river pearls</label><br>
+              <input type="checkbox" name="material" id="pearls">
+              <label for="pearls">vulcanic stone</label>
+            </fieldset>
+            <fieldset>
+              <legend>avaliability</legend>
+              <input type="radio" id="in_stock" name="avaliability">
+              <label for="in_stock">in stock</label><br>
+              <input type="radio" id="out" name="avaliability">
+              <label for="out_stock">out of stock</label>
+           </fieldset>
+          </form>
+        </div>
         </article>
-        <article class="products">
-
+        <article class="title-banner">
+          <h2>all products</h2>
+          <button class="sort-btn">sort by</button>
+          <button class="sort-n-filter-btn"><i class="fa fa-sliders" aria-hidden="true">sort and filter</i>
+          </button>
         </article>
-    </section>
-    <section class="recomended">
+        <article class="product-list">
+          <article class="product">
+            <article><img src="" alt="">
+            </article>
+            <article class="description">
+              <p class="product-category"></p>
+              <p class="product-title"></p>
+              <p class="product-price"></p>
+            </article>
+          </article>
+        </article>
+        </section>
+        <section class="recomended">
 
     </section>
   </main>
@@ -27,5 +110,6 @@
     <iframe src="partials/footer.html" frameborder="0" width="100%" class="auto-height-iframe" ></iframe>
   </footer>
   <script src="js/javascript.js"></script>
+  <script src="js/slider.js"></script>
 </body>
 </html>
