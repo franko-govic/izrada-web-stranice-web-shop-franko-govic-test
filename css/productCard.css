@@ -1,0 +1,16 @@
+.product-img {
+  width: 100%;
+}
+
+img {
+  width: 100%;
+}
+
+.product {
+  background-color: var(--forth-color);
+}
+
+.description {
+  background-color: var(--forth-color);
+}
+
