@@ -48,46 +48,74 @@ header {
 
 #hero-section {
   width: 100%;
+  height: 90vh;
   display: flex;
   justify-content: center;
+  gap: 2rem;
  }
 
  .hero-section-content {
-  width: 60%;
+  width: 40%;
   position: relative;
+  
+ }
+
+ @keyframes slider {
+  from  {visibility: hidden;}
+  to {visibility: visible;}
  }
 
 .banner-pic {
-  width: 100%;
+  width: auto;
+  height: calc(100vh - 77px);
   filter: brightness(0.5);
+  animation: slider infinite 2s;
 }
 
+.pic2 {
+  display: none;
+}
+
+
+
 .moto {
-  font-size: 2.5rem;
+  font-size: 4.5rem;
+  text-align: left;
+  color: var(--secondary-color);
 }
 
 .shop-now {
-  display: flex;
-  flex-direction: column;
   text-align: justify;
-  gap: 2rem;
   font-size: 3rem;
   color: rgba(255, 255, 255, 0.6);
-  width: 20%;
-  padding: 3rem;
+  width: 40%;
+}
+
+.shop-now-wrapper {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin: 5rem 0 0 0;
 }
 
 .buy-here {
-  font-size: 1rem;
+  font-size: 1.5rem;
   
 }
 
 .hero-btns {
   display: flex;
-  justify-content: space-between;
-  gap: 1rem;
+  justify-content: end;
+  gap: 2rem;
+  z-index: 1;
   
-  
+}
+
+@keyframes slider {
+  0% {
+    
+  }
 }
 
 .hero-btns button {
@@ -100,7 +128,7 @@ header {
 
 .hero-btns button:first-of-type {
   
-  background: none;
+  background: var(--main-color);
   color: white;
   border: solid 1px white;
 }
@@ -111,14 +139,14 @@ header {
 }
 
 .graphic {
-  width: 70%;
+  width: 65%;
   height: 85%;
-  border-radius: 2rem 7rem 5rem 14rem;
+  border-radius: 2rem 50% 5rem 50%;
   position: absolute;
   font-size: 3rem;
   color: rgba(255, 255, 255, 0.6);
-  top: 2rem;
-  left: 5rem;
+  top: 4rem;
+  left: 10rem;
   background-color: var(--secondary-color);
   background-size: cover;
   z-index: -1;
