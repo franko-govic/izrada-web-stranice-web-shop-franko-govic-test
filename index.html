@@ -10,10 +10,24 @@
 
 </head>
 <body>
-   <header>
-    <iframe src="partials/header.html" frameborder="0" width="100%" class="auto-height-iframe"></iframe>
-  </header>
-  <main>
+   <section id="popUp">
+    <article id="container">
+      <article class="wrapper">
+        <button id="exit">x</button>
+      <article class="popup-content">
+        <h3>unlock 15% of your next order</h3>
+        <p>and gain acces to exclusive sales, limited edition drops and more.</p>
+        <article class="subscribe">
+          <input type="text" id="sub">
+          <button>subscriibe</button>
+        </article>
+        <p>maybe later</p>
+          <p class="terms"><a href="">terms & conditions</a>apply. Valid for first time sign-ups. View our <a href="">privacy policy</a></p>
+      </article>
+      </article>
+   </section>
+   <header id="header"></header>
+   <main>
     <section id="hero-section">
       <article class="hero-section-content">
       <img class="banner-pic pic1" src="/images/graphics/supermodel-jewellery-photo-shoot-fashion-model-jewellery-78c4b3591760b96f5f5eb845d1ff1f66.png" alt="model">
@@ -52,15 +66,16 @@
   </section>
   <section class="best-sellers">
     <h2>best-sellers</h2>
-  </section>
-  <div class="newsletter">
-    Subscribe to our newslatter to get new aditions first
-  </div>
-  
+  </section>  
        </main> 
-  <footer>
-    <iframe src="partials/footer.html" frameborder="0" width="100%" class="auto-height-iframe" ></iframe>
-  </footer>
+  <footer id="footer"></footer>
   <script src="js/javascript.js"></script>
+  <script src="js/headerLoad.js"></script>
+  <script src="js/footerLoad.js"></script>
+  <script src="js/popUp.js"></script>
 </body>
 </html>
+
+
+
+

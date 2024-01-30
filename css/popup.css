@@ -1,0 +1,48 @@
+  #container {
+  position: fixed;
+   width: 80vw;
+   height: 80vh;
+   background-color: var(--forth-color);
+   z-index: 1000;
+   border-bottom-right-radius: 100%;
+   visibility: hidden;
+  }
+
+  .wrapper {
+    position: relative;
+  }
+
+  #exit {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+  }
+
+  .popup-content {
+   width: 55%;
+   height: fit-content;
+   font-weight: bold;
+   transform: translateX(-20%);
+  }
+
+h3, p,button,
+a {
+  text-transform: uppercase;
+  margin-top: 2rem;
+}
+
+h3 {
+  font-size: 4rem;
+}
+
+p, button, input {
+  font-size: 1rem;
+}
+
+.terms {
+  font-size: 0.7rem
+}
+
+.subscribe > * {
+  padding: 0.8rem;
+}

@@ -1,6 +1,7 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap'); @import url(dropdown.css);
+@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');@import url(dropdown.css);
 @import url(carousel.css);
+@import url(popup.css);
 
 
 
@@ -14,7 +15,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: Fenix;
+  font-family: Italiana;
 }
 
 

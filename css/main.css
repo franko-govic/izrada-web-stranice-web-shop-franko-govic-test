@@ -60,20 +60,11 @@ header {
   
  }
 
- @keyframes slider {
-  from  {visibility: hidden;}
-  to {visibility: visible;}
- }
-
 .banner-pic {
   width: auto;
   height: calc(100vh - 77px);
   filter: brightness(0.5);
   animation: slider infinite 2s;
-}
-
-.pic2 {
-  display: none;
 }
 
 
@@ -82,6 +73,7 @@ header {
   font-size: 4.5rem;
   text-align: left;
   color: var(--secondary-color);
+  font-weight: bold;
 }
 
 .shop-now {
@@ -109,13 +101,6 @@ header {
   justify-content: end;
   gap: 2rem;
   z-index: 1;
-  
-}
-
-@keyframes slider {
-  0% {
-    
-  }
 }
 
 .hero-btns button {
@@ -124,10 +109,11 @@ header {
   font-size: 0.8rem;
   border: none;
   border-radius: 0.2rem;
+  font-weight: bold;
+  letter-spacing: 0.2rem;
 }
 
 .hero-btns button:first-of-type {
-  
   background: var(--main-color);
   color: white;
   border: solid 1px white;
@@ -153,21 +139,14 @@ header {
 }
 
 .discount {
-  background-color: var(--secondary-color);
   color: var(--forth-color);
-  padding: 2rem;
+  padding: 5rem;
   font-size: 2rem;
   text-align: center;
   word-spacing: 0.8rem;
-  animation: boja 2s infinite cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  position: relative;
+  background-color: var(--secondary-color);
 }
-
-@keyframes boja {
-  from {background-color: var(--terciary-color);}
-  to {background-color: var(--secondary-color);}
-}
-
-
 
 .new-in {
   width: 100%;

@@ -11,6 +11,12 @@
 .carousel-slide {
   flex: 1 0 30%;
   scroll-snap-align: center;
+  margin: 0.7rem 0.5rem;
+  border-radius: 1rem;
+}
+
+.carousel-slide img {
+  border-radius: 1rem;
 }
 @media (max-width: 600px) {
   .carousel-slide {
