@@ -5,7 +5,7 @@
    background-color: var(--forth-color);
    z-index: 1000;
    border-bottom-right-radius: 100%;
-   visibility: hidden;
+   display: none;
   }
 
   .wrapper {

@@ -5,10 +5,10 @@ let exitBtn = document.getElementById("exit");
 exitBtn.onclick = hidePopup;
 
 function showPopup () {
-  big.style.visibility = "visible";
+  big.style.display = "block";
 }
 function hidePopup () {
-  big.style.visibility = "hidden";
+  big.style.display = "none";
 }
 
 

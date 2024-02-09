@@ -1,3 +1,7 @@
+body {
+  position: relative;;
+}
+
 i {
   color: var(--forth-color);
 }
@@ -28,8 +32,7 @@ nav .logo {
   border: 1px solid var(--secondary-color);
   color: var(--secondary-color);
   font-weight: bold;
-  font-size: 1.5rem;
-  padding: 0.4rem;
+  font-size: 1rem;
   border-radius: 0.1rem;
 }
 
@@ -37,22 +40,22 @@ nav .logo {
   color: var(--forth-color);
 }
 
-.bottom .left {
-  
-}
 
 .bottom .right  {
 
   display: flex;
   align-items: center;
   justify-content: space-around;
-  flex: 1; 
   margin: auto 1rem; 
 }
 
 .bottom a {
   text-decoration: none;
   
+}
+
+.bottom-left {
+  flex: 1;
 }
 
 .bottom-left a{
@@ -124,7 +127,8 @@ nav .logo {
   
 }
 
-/* @media only screen  and (max-width: 820px) {
+
+@media only screen  and (max-width: 820px) {
   .bottom  .hamb  {
     display: inline-block;
    
@@ -136,7 +140,7 @@ nav .logo {
     width: 40%;
   }
 }
- */
+
 
 .dropdown {
   position: relative;

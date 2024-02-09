@@ -150,12 +150,9 @@ header {
 
 .new-in {
   width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  background-color: var(--terciary-color);
+  
 }
+
 
 .newsletter {
   width: 100%;

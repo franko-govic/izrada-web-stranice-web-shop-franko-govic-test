@@ -5,6 +5,7 @@
   flex-wrap: wrap;
   justify-content: center;
   padding: 2rem 0;
+  
 }
 
 .newsletter-left {
@@ -28,7 +29,6 @@
   display: flex;
   flex: 2;
   gap: 0.3rem;
-  justify-content: space-between;
   align-items: center;
   margin: auto;
   padding: 0 2rem;
@@ -37,12 +37,13 @@
   border: none;
   padding: 1rem;
   box-shadow: 0 0 10px black;
+  margin: auto;
 }
-
 
 #submit {
   flex: 1;
   border-radius: 2rem 0 0 2rem;
+  align-items: center;
 
 }
 
@@ -52,6 +53,7 @@
   background-color: rgb(25, 23, 23);
   color: var(--forth-color);
   border: 1px solid var(--forth-color);
+
 }
 .sign-up:hover {
   background-color: var(--secondary-color);
