@@ -55,9 +55,6 @@ nav .logo {
   
 }
 
-.bottom-left {
-  flex: 1;
-}
 
 .bottom-left a{
   text-transform: uppercase;
@@ -137,8 +134,13 @@ nav .logo {
   .bottom-left .page {
     display: none;
   }
-  .bottom-middle input {
-    width: 40%;
+  .bottom-right i{
+    padding-inline: 0;
   }
+
+
+ .search-input {
+  margin: 0;
+ }
 }
 
