@@ -20,7 +20,7 @@
 
 
 body {
-  background-color: var(--main-color);
+  background-color: var(--forth-color);
  
 }
 
@@ -32,11 +32,13 @@ body {
 }
 
 
-
 h2 {
-  font-size: 2rem;
   text-align: center;
+  background-color: var(--forth-color);
+  color: var(--main-color);
+  text-decoration: underline 0.4rem var(--secondary-color);
+ 
+  font-size: 2.5rem;
+  padding: 1.5rem;
   text-transform: uppercase;
-  color: var(--forth-color);
-  padding: 2rem;
 }
